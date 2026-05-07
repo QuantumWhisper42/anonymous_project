@@ -1,0 +1,33 @@
+[project]
+name = "world-knowledge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiolimiter>=1.2.1",
+    "anyio>=4.12.1",
+    "async-lru>=2.3.0",
+    "diskcache>=5.6.3",
+    "filetype>=1.2.0",
+    "fire>=0.7.1",
+    "huggingface-hub>=1.14.0",
+    "logfire[httpx]>=4.29.0",
+    "minijinja>=2.18.0",
+    "mwclient>=0.11.0",
+    "pillow>=12.1.1",
+    "pydantic>=2.12.5",
+    "pydantic-ai-slim[google,web,retries]>=1.70.0",
+    "pydantic-graph>=1.70.0",
+    "resvg-py>=0.2.6",
+    "rich>=14.3.3",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[dependency-groups]
+dev = ["httpdbg>=2.1.6"]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple/"

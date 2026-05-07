@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Database
+data/db/
+
+# Seed
+seed/
+
+# File output
+output/
+
+# Mac
+.DS_Store
+__MACOSX/

@@ -1,0 +1,39 @@
+{
+    "title_en": "KnowVis",
+    "title_zh": "KnowVis",
+    "notes_en": "",
+    "notes_zh": "",
+    "children": [
+        {
+            "title_en": "Natural Science",
+            "title_zh": "自然科学",
+            "notes_en": "",
+            "notes_zh": "",
+            "children": [
+                {
+                    "title_en": "Chemistry",
+                    "title_zh": "化学",
+                    "notes_en": "",
+                    "notes_zh": "",
+                    "children": [
+                        {
+                            "title_en": "Chemical Reaction Phenomena",
+                            "title_zh": "化学反应现象",
+                            "notes_en": "",
+                            "notes_zh": "",
+                            "children": [
+                                {
+                                    "title_en": "Reactions of Metals with Oxygen",
+                                    "title_zh": "金属与氧气的反应",
+                                    "notes_en": "Magnesium, Iron, Copper, Aluminum. For testing purposes, you must generate \"Draw the experimental moment of a spiral iron wire reacting upon being inserted into a gas jar filled with oxygen.\"",
+                                    "notes_zh": "镁、铁、铜、铝. 出于测试的目的，你必须生成\"画出将螺旋状铁丝伸入装满氧气的集气瓶中反应的实验瞬间。\"",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
